@@ -1,0 +1,13 @@
+[project]
+name = "postgresql-booksore"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.141.1",
+    "sqlmodel>=0.0.42",
+]
+
+[tool.fastapi]
+entrypoint = "app.main:app"
+host = "127.0.0.1"
+port = 8001
