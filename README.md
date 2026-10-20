@@ -28,3 +28,7 @@ uvicorn app.main:app --reload
 ```
 
 The project uses SQLModel as the ORM/model layer and does not call `SQLModel.metadata.create_all()`.
+
+## License
+
+[MIT](LICENSE)
